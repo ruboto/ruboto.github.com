@@ -3,9 +3,6 @@ layout: home
 ---
 
 <img style="float:left ; padding-right: 1em" src="ruboto.png" />
-<!--
-<img style="float:right" src="ruboto.png" />
--->
 
 # Ruboto -- Ruby on Android
 
