@@ -15,7 +15,7 @@ Ruboto is based on [JRuby](http://jruby.org).
 <table width="100%">
 <tr>
 
-<td>
+<td valign="top">
 
 ## ruboto-irb
 
@@ -28,7 +28,7 @@ You can install ruboto-irb from the Play Store or download it directly to your A
 [ruboto-irb download](http://www.androidzoom.com/android_applications/tools/ruboto-irb-ruby-on-android_hwcd_download.html)
 </td>
 
-<td>
+<td valign="top">
 
 ## ruboto gem
 
@@ -38,7 +38,7 @@ Ruboto is a framework for writing full Android apps in Ruby.
 It includes support libraries and generators for creating projects, classes, tests, and more.
 </td>
 
-<td>
+<td valign="top">
 
 ## RubotoCore
 
