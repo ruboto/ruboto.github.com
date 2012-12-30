@@ -12,7 +12,6 @@ Ruboto is based on [JRuby](http://jruby.org).
 
 <br clear="all"/>
 
-<div>
 
 ## ruboto-irb
 
@@ -23,8 +22,6 @@ ruboto-irb is an Android application installable from the Play Store and include
 You can install ruboto-irb from the Play Store or download it directly to your Android device here:
 
 [ruboto-irb download](http://www.androidzoom.com/android_applications/tools/ruboto-irb-ruby-on-android_hwcd_download.html)
-
-</div>
 
 
 ## ruboto gem
