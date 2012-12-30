@@ -16,6 +16,7 @@ Ruboto is based on [JRuby](http://jruby.org).
 <tr>
 
 <td>
+
 ## ruboto-irb
 
 [ruboto-irb on GitHub](http://github.com/ruboto/ruboto-irb/)
@@ -28,6 +29,7 @@ You can install ruboto-irb from the Play Store or download it directly to your A
 </td>
 
 <td>
+
 ## ruboto gem
 
 [ruboto on GitHub](http://github.com/ruboto/ruboto/)
@@ -37,6 +39,7 @@ It includes support libraries and generators for creating projects, classes, tes
 </td>
 
 <td>
+
 ## RubotoCore
 
 [ruboto-core on GitHub](http://github.com/ruboto/ruboto-core/)
