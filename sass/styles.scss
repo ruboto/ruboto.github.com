@@ -1,0 +1,154 @@
+// I gather this file is a starting point for the project.
+@import "bootstrap";
+
+// Include responsive Bootstrap styles
+// @import "bootstrap-responsive";
+
+
+$hero_color: #0099cc;
+$downloads_color: #33b5e5;
+$content-border: #ebebeb;
+
+body {
+  font: 14px/19px Roboto, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+#main-navigation {
+  margin: 45px 0;
+  ul {
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline-block;
+
+    li {
+      display: inline;
+      padding: 0 25px;
+      &:first-child {
+        padding-left: 0
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  #other {
+    float: right
+  }
+}
+
+.ruboto-big-logo {
+  margin-top: 10px;
+}
+
+#hero {
+  height: 440px;
+  background-color: $hero_color;
+  padding-top: 50px;
+
+  h1 {
+    font: 42px Roboto, sans-serif;
+    font-weight: 900;
+  }
+
+  span {
+    color: #fff;
+  }
+
+  p {
+    padding: 40px 0;
+    line-height: 160%;
+    color: #e1efef;
+    font-size: 16px;
+  }
+}
+
+#downloads {
+  max-height: 60px;
+  height: 60px;
+  background-color: $downloads_color;
+
+  a {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 10px;
+  }
+
+  h2 {
+    padding-right: 30px;
+    display: inline;
+    font-size: 18px;
+    color: #c2efff;
+    font-weight: 300;
+  }
+
+  span {
+    margin: 0 10px;
+    font-size: 18px;
+      color: #c2efff
+  }
+
+  * {
+    padding-top: 6px;
+  }
+}
+
+#quickstart {
+  height: 500px;
+  color: $black;
+  background-color: $white;
+  border-bottom: 1px $content-border solid;
+
+  .nav-tabs > li {
+    width: 235px; // FIXME: Not responsive, should be dynamic
+    text-align: center
+  }
+
+  .nav-tabs > li > a{
+    height: 40px;
+    max-height: 40px;
+    line-height: 35px;
+    border-radius: 0px;
+  }
+
+  .tab-pane {
+     position: relative;
+     height: 424px;
+
+     p {
+       line-height: 150%;
+       text-align: center;
+       font-size: 18px;
+       font-weight: 300;
+     }
+  }
+}
+
+.content {
+  padding: 30px 0;
+  color: $black;
+  background-color: $white;
+  border-bottom: 1px $content-border solid;
+
+  h2 {
+    font-weight: 500;
+  }
+
+  h3 {
+    font-weight: 400;
+  }
+}
+
+footer {
+  font-weight: 100;
+  margin-top: 20px;
+  height: 150px;
+
+  img.thanks {
+    padding: 0 10px;
+    height: 80px;
+  }
+}

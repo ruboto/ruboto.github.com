@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Ruboto</title>
+    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/styles.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" title="roboto">
+    <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/bootstrap-tab.js"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/jquery.smooth-scroll.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <nav id="main-navigation">
+            <ul>
+              <li><img src="images/ruboto_letter.png" alt="Ruboto Logo Text" /></li>
+              <li><a href="#quickstart">Quickstart</a></li>
+              <li><a href="#documentation">Documentation</a></li>
+              <li><a href="#community">Community</a></li>
+            </ul>
+
+            <ul id="other">
+              <li><a href="http://rubydoc.info/gems/ruboto/" target="_blank">API</a></li>
+              <li><a href="https://github.com/ruboto/ruboto-irb/" target="_blank">Looking for Ruboto-IRB?</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+
+      <header id="hero">
+        <div class="row">
+          <div class="span5 offset1">
+            <h1>Experience the fun of Ruby for Android</h1>
+            
+            <p><span>Ruboto</span> is a <span>framework and tool chain</span> to develop 
+            <span>native Android</span> apps, using the <span>Ruby</span> language
+              we all know and love.</p>
+
+            <img class="android_plus_ruby" src="images/ruby_android_equals_love.png" alt="Ruby plus Android equals" />
+          </div>
+
+          <div class="span5 offset1">
+            <img src="images/ruboto_logo.png" alt="Ruboto Logo" class="ruboto-big-logo"/>
+          </div>
+        </div>
+      </header>
+
+      <div id="downloads">
+        <div class="row">
+          <div class="span11 offset1">
+            <h2>Downloads</h2>
+
+            <a href="https://github.com/ruboto/ruboto/archive/master.zip">ZIP</a>
+            <span class="or">or</span>
+            <a href="https://github.com/ruboto/ruboto/" target="_blank">Fork Ruboto on GH</a> <span>|</span>
+            <a href="https://github.com/ruboto/ruboto-irb/" target="_blank">Fork Ruboto-IRB on GH</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="quickstart">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#qs-install" data-toggle="tab">Install</a></li>
+          <li><a href="#qs-create" data-toggle="tab">Create</a></li>
+          <li><a href="#qs-code" data-toggle="tab">Code</a></li>
+          <li><a href="#qs-deploy" data-toggle="tab">Deploy</a></li>
+        </ul>
+
+        <div class="row">
+          <div class="span8 offset2">
+            <div class="tab-content">
+              <div class="tab-pane active" id="qs-install">
+                <p>Ruboto depends on <a href="http://jruby.org/" target="_blank">JRuby</a>,
+                which is a is a Java implementation of the Ruby programming language.</a>
+                Installation is straight-forward and easy. Please read the <a href="#documentation">Requirements</a>.</p>
+                <div style="position: absolute; bottom: 0; left: 40px">
+                  <img src="images/steps/install.png" alt="Installation" />
+                </div>
+              </div>
+              <div class="tab-pane" id="qs-create">
+                <p>Ruboto has a command-line interface which lets you complete common tasks
+                quickly and painless.</p>
+                <div style="position: absolute; bottom: 0; left: 40px">
+                  <img src="images/steps/create.png" alt="Create" />
+                </div>
+              </div>
+              <div class="tab-pane" id="qs-code">
+                <p>Use Ruby to access the Android API and test your apps.</p>
+                <div style="position: absolute; bottom: 0; left: 40px">
+                  <img src="images/steps/code.png" alt="Code" />
+                </div>
+              </div>
+              <div class="tab-pane" id="qs-deploy">
+                <p>Deploy to your device or simulator quickly. Even without terminating the process.</p>
+                <div style="position: absolute; bottom: 0; left: 40px">
+                  <img src="images/steps/deploy.png" alt="Deploy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="documentation" class="content">
+        <div class="row">
+          <div class="span10 offset1">
+            <h1>Documentation</h1>
+
+            <h2>Getting started</h2>
+
+            <h3>Requirements</h3>
+            <ul>
+              <li>Install the JDK if it's not on your system already</li>
+              <li>Install jruby if you don't already have it. JRuby has a very easy install process, or you can use rvm</li>
+              <li> Install the Android SDK</li>
+              <li>Add the sdk to $ANDROID_HOME as an absolute path (Java does not expand tildes ~)</li>
+              <li>Add the sdk's tools/ and platform-tools/ directory to your $PATH</li>
+              <li>Generate an Emulator image unless you want to develop using your phone.</li>
+            </ul>
+
+            <h3>Installation</h3>
+
+            <pre><code>gem install ruboto</code></pre>
+
+            <h2>Diving In</h2>
+
+            <p>Read the <a href="https://github.com/ruboto/ruboto/wiki" target="_blank">Wiki</a> and
+            <a href="https://github.com/ruboto/ruboto/blob/master/README.md">README</a></p>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="community" class="content">
+        <div class="row">
+          <div class="span10 offset1">
+            <h1>Community</h1>
+            <ul>
+              <li><a href="https://github.com/ruboto/ruboto/wiki" target="_blank">Wiki</a></li>
+              <li><a href="http://groups.google.com/group/ruboto" target="_blank">Mailing List</a></li>
+              <li>IRC chat: <a href="irc://irc.freenode.net/ruboto">#ruboto</a> on Freenode.</li>
+              <li><a href="https://github.com/ruboto/ruboto/issues" target="_blank">Issue Tracker</a></li>
+              <li><a href="http://ci.jruby.org/view/Ruboto/" target="_blank">Continuous Integration</a></li>
+              <li><a href="http://www.cafepress.co.uk/ruboto" target="_blank">Merchandise</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="span8">
+            <img src="images/domo_arigato.png" alt="Domo arigato" />
+            <a href="http://jruby.org"><img class="thanks" src="images/logos/jruby.png" alt="JRuby" /></a>
+            <a href="http://ruby.org"><img class="thanks" src="images/logos/ruby.png" alt="Ruby" /></a>
+            <a href="http://android.org"><img class="thanks" src="images/logos/android.png" alt="Android" /></a>
+          </div>
+          <div class="span2 offset2">
+            Site crafted by <a href="http://www.kennymeyer.net" target="_blank">Kenny Meyer</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <a href="https://github.com/ruboto/ruboto"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png" alt="Fork me on GitHub"></a>
+  </body>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      $('a').smoothScroll();
+    });
+  </script>
+</html>
