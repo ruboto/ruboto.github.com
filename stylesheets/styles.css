@@ -5022,52 +5022,54 @@ body {
 /* line 18, ../sass/styles.scss */
 #main-navigation {
   margin: 45px 0;
+  font-weight: 100;
 }
-/* line 20, ../sass/styles.scss */
+/* line 21, ../sass/styles.scss */
 #main-navigation ul {
   list-style-position: inside;
   list-style-type: none;
   display: inline-block;
 }
-/* line 25, ../sass/styles.scss */
+/* line 26, ../sass/styles.scss */
 #main-navigation ul li {
   display: inline;
   padding: 0 25px;
 }
-/* line 28, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
 #main-navigation ul li:first-child {
   padding-left: 0;
 }
-/* line 32, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 #main-navigation ul li a {
   color: #fff;
 }
-/* line 38, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 #main-navigation #other {
+  font-weight: 400;
   float: right;
 }
 
-/* line 43, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 .ruboto-big-logo {
   margin-top: 10px;
 }
 
-/* line 47, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 #hero {
   height: 440px;
   background-color: #0099cc;
   padding-top: 50px;
 }
-/* line 52, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 #hero h1 {
   font: 42px Roboto, sans-serif;
   font-weight: 900;
 }
-/* line 57, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 #hero span {
   color: #fff;
 }
-/* line 61, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 #hero p {
   padding: 40px 0;
   line-height: 160%;
@@ -5075,62 +5077,51 @@ body {
   font-size: 16px;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 #downloads {
-  max-height: 60px;
-  height: 60px;
-  background-color: #33b5e5;
+  max-height: 120px;
+  height: 120px;
+  background-color: #c04848;
+  text-align: center;
 }
-/* line 74, ../sass/styles.scss */
-#downloads a {
-  font-size: 18px;
-  color: #fff;
-  margin: 0 10px;
-}
-/* line 80, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 #downloads h2 {
-  padding-right: 30px;
-  display: inline;
-  font-size: 18px;
-  color: #c2efff;
+  padding-top: 24px;
+  font-size: 24px;
+  font-weight: 100;
+}
+/* line 83, ../sass/styles.scss */
+#downloads p {
+  padding-top: 10px;
+  font-size: 16px;
   font-weight: 300;
 }
-/* line 88, ../sass/styles.scss */
-#downloads span {
-  margin: 0 10px;
-  font-size: 18px;
-  color: #c2efff;
-}
-/* line 94, ../sass/styles.scss */
-#downloads * {
-  padding-top: 6px;
-}
 
-/* line 99, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 #quickstart {
   height: 500px;
   color: black;
   background-color: white;
   border-bottom: 1px #ebebeb solid;
 }
-/* line 105, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 #quickstart .nav-tabs > li {
   width: 235px;
   text-align: center;
 }
-/* line 110, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 #quickstart .nav-tabs > li > a {
   height: 40px;
   max-height: 40px;
   line-height: 35px;
   border-radius: 0px;
 }
-/* line 117, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 #quickstart .tab-pane {
   position: relative;
   height: 424px;
 }
-/* line 121, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 #quickstart .tab-pane p {
   line-height: 150%;
   text-align: center;
@@ -5138,29 +5129,29 @@ body {
   font-weight: 300;
 }
 
-/* line 130, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .content {
   padding: 30px 0;
   color: black;
   background-color: white;
   border-bottom: 1px #ebebeb solid;
 }
-/* line 136, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .content h2 {
   font-weight: 500;
 }
-/* line 140, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 .content h3 {
   font-weight: 400;
 }
 
-/* line 145, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 footer {
   font-weight: 100;
   margin-top: 20px;
   height: 150px;
 }
-/* line 150, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 footer img.thanks {
   padding: 0 10px;
   height: 50px;

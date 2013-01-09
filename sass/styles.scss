@@ -6,7 +6,7 @@
 
 
 $hero_color: #0099cc;
-$downloads_color: #33b5e5;
+$downloads_color: #c04848;
 $content-border: #ebebeb;
 
 body {
@@ -17,6 +17,7 @@ body {
 
 #main-navigation {
   margin: 45px 0;
+  font-weight: 100;
   ul {
     list-style-position: inside;
     list-style-type: none;
@@ -36,6 +37,7 @@ body {
   }
 
   #other {
+    font-weight: 400;
     float: right
   }
 }
@@ -67,32 +69,21 @@ body {
 }
 
 #downloads {
-  max-height: 60px;
-  height: 60px;
+  max-height: 120px;
+  height: 120px;
   background-color: $downloads_color;
-
-  a {
-    font-size: 18px;
-    color: #fff;
-    margin: 0 10px;
-  }
+  text-align: center;
 
   h2 {
-    padding-right: 30px;
-    display: inline;
-    font-size: 18px;
-    color: #c2efff;
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: 100;
+  }
+
+  p {
+    padding-top: 10px;
+    font-size: 16px;
     font-weight: 300;
-  }
-
-  span {
-    margin: 0 10px;
-    font-size: 18px;
-      color: #c2efff
-  }
-
-  * {
-    padding-top: 6px;
   }
 }
 
