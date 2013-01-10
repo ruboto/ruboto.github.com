@@ -1,5 +1,6 @@
+# See https://github.com/mojombo/jekyll/wiki/Configuration
 safe:        false
-auto:        false
+auto:        true
 server:      false
 server_port: 4000
 baseurl:    /
