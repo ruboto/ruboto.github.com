@@ -8,6 +8,7 @@
 $hero_color: #0099cc;
 $downloads_color: #c04848;
 $content-border: #ebebeb;
+$quick-news-color: #c04848;
 
 body {
   font: 14px/19px Roboto, sans-serif;
@@ -116,6 +117,12 @@ body {
        font-weight: 300;
      }
   }
+}
+
+#quick-news {
+  background-color: $quick-news-color;
+  color: white;
+  border-bottom: 0px;
 }
 
 .content {
