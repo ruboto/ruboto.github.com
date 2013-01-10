@@ -32,13 +32,23 @@
       <header id="hero">
         <div class="row">
           <div class="span5 offset1">
-            <h1>Experience the fun of Ruby for Android</h1>
-            
-            <p><span>Ruboto</span> is a <span>framework and tool chain</span> to develop 
-            <span>native Android</span> apps, using the <span>Ruby</span> language
-              we all know and love.</p>
+              <h1>Documentation</h1>
 
-            <img class="android_plus_ruby" src="images/ruby_android_equals_love.png" alt="Ruby plus Android equals" />
+              <h2>Getting started</h2>
+
+              <ul>
+                <li>Install the JDK if it's not on your system already</li>
+                <li>Install jruby if you don't already have it. JRuby has a very easy install process, or you can use rvm</li>
+                <li> Install the Android SDK</li>
+                <li>Add the sdk to $ANDROID_HOME as an absolute path (Java does not expand tildes ~)</li>
+                <li>Add the sdk's tools/ and platform-tools/ directory to your $PATH</li>
+                <li>Generate an Emulator image unless you want to develop using your phone.</li>
+              </ul>
+
+              <pre><code>gem install ruboto</code></pre>
+
+              <div>Read the <a href="https://github.com/ruboto/ruboto/wiki" target="_blank">Wiki</a> and
+              <a href="https://github.com/ruboto/ruboto/blob/master/README.md">README</a></div>
           </div>
 
           <div class="span5 offset1">
@@ -46,19 +56,6 @@
           </div>
         </div>
       </header>
-
-      <div id="downloads">
-        <div class="row">
-          <div class="span11 offset1">
-            <h2>Downloads</h2>
-
-            <a href="https://github.com/ruboto/ruboto/archive/master.zip">ZIP</a>
-            <span class="or">or</span>
-            <a href="https://github.com/ruboto/ruboto/" target="_blank">Fork Ruboto on GH</a> <span>|</span>
-            <a href="https://github.com/ruboto/ruboto-irb/" target="_blank">Fork Ruboto-IRB on GH</a>
-          </div>
-        </div>
-      </div>
 
       <footer>
         <div class="row">

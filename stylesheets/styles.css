@@ -3123,6 +3123,10 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   list-style: none;
 }
 
+nav ul {
+  margin-bottom: 0;
+}
+
 /* line 16, ../../../../../../../../Applications/Fire.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li > a {
   display: block;
@@ -5021,7 +5025,7 @@ body {
 
 /* line 18, ../sass/styles.scss */
 #main-navigation {
-  margin: 45px 0;
+  margin: 25px 0;
 }
 /* line 20, ../sass/styles.scss */
 #main-navigation ul {
@@ -5073,6 +5077,10 @@ body {
   line-height: 160%;
   color: #e1efef;
   font-size: 16px;
+}
+
+#hero a {
+    color: #fff;
 }
 
 /* line 69, ../sass/styles.scss */
@@ -5157,8 +5165,8 @@ body {
 /* line 145, ../sass/styles.scss */
 footer {
   font-weight: 100;
-  margin-top: 20px;
-  height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* line 150, ../sass/styles.scss */
 footer img.thanks {
