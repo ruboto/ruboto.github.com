@@ -3,6 +3,7 @@ GEM
   specs:
     albino (1.3.3)
       posix-spawn (>= 0.3.6)
+    bootstrap-sass (2.0.4.0)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
     directory_watcher (1.4.1)
@@ -29,5 +30,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   jekyll
   jekyll-sass
