@@ -82,18 +82,4 @@ layout: default
   </div>
 </div>
 
-<div id="quick-news" class="content">
-  <div class="row">
-    <div class="span5 offset1">
-      <h2>Recent News</h2>
-    </div>
-
-    <div class="span5 ">
-      <h2>Recent Tweets</h2>
-
-      <a class="twitter-timeline" href="https://twitter.com/MrRuboto" data-widget-id="289181380175339523">Tweets by @MrRuboto</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-    </div>
-  </div>
-</div>
+{% include themes/ruboto/quick_news.html %}
