@@ -190,6 +190,38 @@ body {
   }
 }
 
+#news {
+  background-color: $white;
+  color: $black;
+
+  .news-header {
+    background-color: #c04949;
+    color: $white;
+    h2 {
+      padding: 20px 0;
+      a:link, a:visited {
+        color: $white;
+        font-size: 30px;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .news-publish-date {
+    background-color: #ff6161;
+    h3 {
+      color: white;
+      font-size: 18px;
+      font-weight: 100;
+      padding: 10px 0;
+    }
+  }
+
+  .news-content {
+    padding: 20px 0;
+  }
+}
+
 footer {
   font-weight: 100;
   margin-top: 20px;
