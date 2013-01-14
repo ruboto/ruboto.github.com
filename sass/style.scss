@@ -6,8 +6,8 @@
 
 $black: #000;
 $white: #fff;
-$hero_color: #0099cc;
-$downloads_color: #c04848;
+$hero_color: #28668D;
+$downloads_color: #A63F3F;
 $content-border: #ebebeb;
 $quick-news-color: #c04848;
 
@@ -53,7 +53,7 @@ body {
 #hero {
   height: 440px;
   background-color: $hero_color;
-  padding-top: 50px;
+  padding-top: 60px;
 
   h1 {
     font: 42px Roboto, sans-serif;
@@ -74,23 +74,28 @@ body {
 }
 
 #downloads {
-  max-height: 120px;
-  height: 120px;
+  max-height: 150px;
+  height: 150px;
   background-color: $downloads_color;
   text-align: center;
-  border-top: 1px double white;
+  border-top: 1px #732020 solid;
+  border-bottom: 1px #732020 solid;
 
   h2 {
     color: $white;
     padding-top: 24px;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: bold;
   }
 
   p {
     padding-top: 10px;
     font-size: 16px;
     font-weight: 300;
+  }
+  
+  iframe {
+    padding-top: 10px;
   }
 }
 
@@ -127,7 +132,8 @@ body {
 
 #quick-news {
   padding: 30px 0;
-  background-color: $quick-news-color;
+  /*background-color: $quick-news-color;*/
+  background-image: url('../img/bg.png');
   color: white;
   border-bottom: 0px;
   h2 {
@@ -168,6 +174,19 @@ body {
 
   h3 {
     font-weight: 400;
+  }
+}
+
+#page {
+  #page-header {
+    padding: 30px 0;
+    background-color: $hero_color;
+
+    h2 {
+      font-weight: 300;
+      font-size: 30px;
+      color: white;
+    }
   }
 }
 
