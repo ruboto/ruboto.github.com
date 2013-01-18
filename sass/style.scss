@@ -19,7 +19,7 @@ body {
 
 #main-navigation {
   font-size: 16px;
-  margin: 35px 0;
+  margin: 25px 0;
   font-weight: 100;
   ul {
     list-style-position: inside;
@@ -51,9 +51,9 @@ body {
 }
 
 #hero {
-  height: 440px;
+  height: 400px;
   background-color: $hero_color;
-  padding-top: 60px;
+  padding-top: 40px;
 
   h1 {
     font: 42px Roboto, sans-serif;
@@ -83,9 +83,19 @@ body {
 
   h2 {
     color: $white;
-    padding-top: 24px;
+    padding-top: 20px;
     font-size: 24px;
     font-weight: bold;
+
+    a:link, a:visited {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover, a:active {
+      color: white;
+      text-decoration: underline;
+    }
   }
 
   p {
