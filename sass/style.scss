@@ -1,0 +1,290 @@
+// I gather this file is a starting point for the project.
+// @import "bootstrap";
+
+// Include responsive Bootstrap styles
+// @import "bootstrap-responsive";
+
+$black: #000;
+$white: #fff;
+$hero_color: #28668D;
+$downloads_color: #A63F3F;
+$content-border: #ebebeb;
+$quick-news-color: #c04848;
+
+body {
+  font: 14px/19px Roboto, sans-serif;
+  background-color: #1a1919;
+  color: #fff;
+}
+
+#main-navigation {
+  font-size: 16px;
+  margin: 25px 0;
+  font-weight: 100;
+  ul {
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline-block;
+
+    li {
+      display: inline;
+      padding: 0 25px;
+      &:first-child {
+        margin-top: 10px;
+        padding-left: 0
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  #other {
+    font-weight: 400;
+    float: right
+  }
+}
+
+.ruboto-big-logo {
+  margin-top: 10px;
+}
+
+#hero {
+  height: 400px;
+  background-color: $hero_color;
+  padding-top: 40px;
+
+  h1 {
+    font: 42px Roboto, sans-serif;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  span {
+    color: #fff;
+  }
+
+  p {
+    padding: 40px 0;
+    line-height: 160%;
+    color: #e1efef;
+    font-size: 16px;
+  }
+}
+
+#downloads {
+  max-height: 150px;
+  height: 150px;
+  background-color: $downloads_color;
+  text-align: center;
+  border-top: 1px #732020 solid;
+  border-bottom: 1px #732020 solid;
+
+  h2 {
+    color: $white;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+
+    a:link, a:visited {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover, a:active {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  iframe {
+    padding-top: 10px;
+  }
+}
+
+#quickstart {
+  height: 500px;
+  color: $black;
+  background-color: $white;
+  border-bottom: 1px $content-border solid;
+
+  .nav-tabs > li {
+    width: 235px; // FIXME: Not responsive, should be dynamic
+    text-align: center
+  }
+
+  .nav-tabs > li > a{
+    height: 40px;
+    max-height: 40px;
+    line-height: 35px;
+    border-radius: 0px;
+  }
+
+  .tab-pane {
+     position: relative;
+     height: 427px;
+
+     p {
+       line-height: 150%;
+       text-align: center;
+       font-size: 18px;
+       font-weight: 300;
+     }
+  }
+}
+
+#quick-news {
+  padding: 30px 0;
+  /*background-color: $quick-news-color;*/
+  background-image: url('../img/bg.png');
+  color: white;
+  border-bottom: 0px;
+  h2 {
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+  }
+  ul {
+    li {
+      padding: 2px 0;
+      a:link, a:visited {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: #fff;
+        text-decoration: none;
+      }
+      a:active {
+        color: #ddd;
+      }
+      .date {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.content {
+  padding: 30px 0;
+  color: $black;
+  background-color: $white;
+  border-bottom: 1px $content-border solid;
+
+  h2 {
+    font-weight: 500;
+  }
+
+  h3 {
+    font-weight: 400;
+  }
+}
+
+#page {
+  #page-header {
+    padding: 30px 0;
+    background-color: $hero_color;
+
+    h2 {
+      font-weight: 300;
+      font-size: 30px;
+      color: white;
+    }
+  }
+}
+
+#news {
+  background-color: $white;
+  color: $black;
+
+  .news-header {
+    background-color: #c04949;
+    color: $white;
+    h2 {
+      padding: 20px 0;
+      a:link, a:visited {
+        color: $white;
+        font-size: 30px;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .news-publish-date {
+    background-color: #ff6161;
+    h3 {
+      color: white;
+      font-size: 18px;
+      font-weight: 100;
+      padding: 10px 0;
+    }
+  }
+
+  .news-content {
+    padding: 20px 0;
+  }
+}
+
+footer {
+  font-weight: 100;
+  margin-top: 20px;
+  height: 150px;
+
+  img.thanks {
+    padding: 0 10px;
+    height: 50px;
+  }
+}
+
+/* Page header tweaks */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 20px 10px;
+  margin: 0;
+}
+
+.topbar .btn {
+  border: 0;
+}
+
+
+/* tag_box ======================================================== */
+
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	line-height:28px;
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	color:#005F6B;
+	border-radius: 3px;
+	text-decoration:none;
+}
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+

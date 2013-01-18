@@ -1,0 +1,39 @@
+---
+layout: default
+title: Recent News
+---
+<div id="page">
+  <div id="page-header"> 
+    <div class="row">
+      <div class="span10 offset1">
+        <h2>{{ page.title }}</h2>
+      </div>
+    </div>
+  </div>
+
+  <div id="news">
+    {% for post in site.posts %}
+    <div class="news-header">
+      <div class="row">
+        <div class="span10 offset1">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-publish-date">
+      <div class="row">
+        <div class="span10 offset1">
+          <h3>{{ post.date | date: "%d %B %Y" }}</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row news-content">
+      <div class="span10 offset1">
+        {{ post.content }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
