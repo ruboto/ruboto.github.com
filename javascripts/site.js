@@ -1,5 +1,6 @@
 $(".tryme").on("click", function() {
-  $("#ruboto-irb").hide();
-  $("#surfit").show();
+  $("#ruboto-irb").fadeOut(400, function() {
+    $("#surfit").show();
+  });
   return false;
 });
