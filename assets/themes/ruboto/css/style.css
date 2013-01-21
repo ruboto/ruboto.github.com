@@ -76,58 +76,66 @@ body {
   border-bottom: 1px #732020 solid;
 }
 /* line 84, ../../../../sass/style.scss */
+#downloads #surfit {
+  display: none;
+}
+/* line 88, ../../../../sass/style.scss */
 #downloads h2 {
   color: white;
   padding-top: 20px;
   font-size: 24px;
   font-weight: bold;
 }
-/* line 90, ../../../../sass/style.scss */
-#downloads h2 a:link, #downloads h2 a:visited {
-  color: white;
-  text-decoration: none;
-}
-/* line 95, ../../../../sass/style.scss */
-#downloads h2 a:hover, #downloads h2 a:active {
-  color: white;
-  text-decoration: underline;
-}
-/* line 101, ../../../../sass/style.scss */
+/* line 96, ../../../../sass/style.scss */
 #downloads p {
   padding-top: 10px;
   font-size: 16px;
   font-weight: 300;
 }
-/* line 107, ../../../../sass/style.scss */
+/* line 101, ../../../../sass/style.scss */
+#downloads p a:link {
+  text-decoration: underline;
+}
+/* line 106, ../../../../sass/style.scss */
 #downloads iframe {
   padding-top: 10px;
 }
+/* line 110, ../../../../sass/style.scss */
+#downloads a:link, #downloads a:visited {
+  color: white;
+  text-decoration: none;
+}
+/* line 115, ../../../../sass/style.scss */
+#downloads a:hover, #downloads a:active {
+  color: white;
+  text-decoration: underline;
+}
 
-/* line 112, ../../../../sass/style.scss */
+/* line 121, ../../../../sass/style.scss */
 #quickstart {
   height: 500px;
   color: black;
   background-color: white;
   border-bottom: 1px #ebebeb solid;
 }
-/* line 118, ../../../../sass/style.scss */
+/* line 127, ../../../../sass/style.scss */
 #quickstart .nav-tabs > li {
   width: 235px;
   text-align: center;
 }
-/* line 123, ../../../../sass/style.scss */
+/* line 132, ../../../../sass/style.scss */
 #quickstart .nav-tabs > li > a {
   height: 40px;
   max-height: 40px;
   line-height: 35px;
   border-radius: 0px;
 }
-/* line 130, ../../../../sass/style.scss */
+/* line 139, ../../../../sass/style.scss */
 #quickstart .tab-pane {
   position: relative;
   height: 427px;
 }
-/* line 134, ../../../../sass/style.scss */
+/* line 143, ../../../../sass/style.scss */
 #quickstart .tab-pane p {
   line-height: 150%;
   text-align: center;
@@ -135,7 +143,7 @@ body {
   font-weight: 300;
 }
 
-/* line 143, ../../../../sass/style.scss */
+/* line 152, ../../../../sass/style.scss */
 #quick-news {
   padding: 30px 0;
   /*background-color: $quick-news-color;*/
@@ -143,127 +151,127 @@ body {
   color: white;
   border-bottom: 0px;
 }
-/* line 149, ../../../../sass/style.scss */
+/* line 158, ../../../../sass/style.scss */
 #quick-news h2 {
   font-weight: 300;
   color: white;
   margin-bottom: 10px;
 }
-/* line 155, ../../../../sass/style.scss */
+/* line 164, ../../../../sass/style.scss */
 #quick-news ul li {
   padding: 2px 0;
 }
-/* line 157, ../../../../sass/style.scss */
+/* line 166, ../../../../sass/style.scss */
 #quick-news ul li a:link, #quick-news ul li a:visited {
   font-size: 16px;
   color: #fff;
   text-decoration: underline;
 }
-/* line 162, ../../../../sass/style.scss */
+/* line 171, ../../../../sass/style.scss */
 #quick-news ul li a:hover {
   color: #fff;
   text-decoration: none;
 }
-/* line 166, ../../../../sass/style.scss */
+/* line 175, ../../../../sass/style.scss */
 #quick-news ul li a:active {
   color: #ddd;
 }
-/* line 169, ../../../../sass/style.scss */
+/* line 178, ../../../../sass/style.scss */
 #quick-news ul li .date {
   font-size: 14px;
 }
 
-/* line 176, ../../../../sass/style.scss */
+/* line 185, ../../../../sass/style.scss */
 .content {
   padding: 30px 0;
   color: black;
   background-color: white;
   border-bottom: 1px #ebebeb solid;
 }
-/* line 182, ../../../../sass/style.scss */
+/* line 191, ../../../../sass/style.scss */
 .content h2 {
   font-weight: 500;
 }
-/* line 186, ../../../../sass/style.scss */
+/* line 195, ../../../../sass/style.scss */
 .content h3 {
   font-weight: 400;
 }
 
-/* line 192, ../../../../sass/style.scss */
+/* line 201, ../../../../sass/style.scss */
 #page #page-header {
   padding: 30px 0;
   background-color: #28668d;
 }
-/* line 196, ../../../../sass/style.scss */
+/* line 205, ../../../../sass/style.scss */
 #page #page-header h2 {
   font-weight: 300;
   font-size: 30px;
   color: white;
 }
 
-/* line 204, ../../../../sass/style.scss */
+/* line 213, ../../../../sass/style.scss */
 #news {
   background-color: white;
   color: black;
 }
-/* line 208, ../../../../sass/style.scss */
+/* line 217, ../../../../sass/style.scss */
 #news .news-header {
   background-color: #c04949;
   color: white;
 }
-/* line 211, ../../../../sass/style.scss */
+/* line 220, ../../../../sass/style.scss */
 #news .news-header h2 {
   padding: 20px 0;
 }
-/* line 213, ../../../../sass/style.scss */
+/* line 222, ../../../../sass/style.scss */
 #news .news-header h2 a:link, #news .news-header h2 a:visited {
   color: white;
   font-size: 30px;
   text-decoration: underline;
 }
-/* line 221, ../../../../sass/style.scss */
+/* line 230, ../../../../sass/style.scss */
 #news .news-publish-date {
   background-color: #ff6161;
 }
-/* line 223, ../../../../sass/style.scss */
+/* line 232, ../../../../sass/style.scss */
 #news .news-publish-date h3 {
   color: white;
   font-size: 18px;
   font-weight: 100;
   padding: 10px 0;
 }
-/* line 231, ../../../../sass/style.scss */
+/* line 240, ../../../../sass/style.scss */
 #news .news-content {
   padding: 20px 0;
 }
 
-/* line 236, ../../../../sass/style.scss */
+/* line 245, ../../../../sass/style.scss */
 footer {
   font-weight: 100;
   margin-top: 20px;
   height: 150px;
 }
-/* line 241, ../../../../sass/style.scss */
+/* line 250, ../../../../sass/style.scss */
 footer img.thanks {
   padding: 0 10px;
   height: 50px;
 }
 
 /* Page header tweaks */
-/* line 248, ../../../../sass/style.scss */
+/* line 257, ../../../../sass/style.scss */
 .page-header {
   background-color: #f5f5f5;
   padding: 20px 20px 10px;
   margin: 0;
 }
 
-/* line 254, ../../../../sass/style.scss */
+/* line 263, ../../../../sass/style.scss */
 .topbar .btn {
   border: 0;
 }
 
 /* tag_box ======================================================== */
-/* line 261, ../../../../sass/style.scss */
+/* line 270, ../../../../sass/style.scss */
 .tag_box {
   list-style: none;
   margin: 0;
@@ -271,17 +279,17 @@ footer img.thanks {
   overflow: hidden;
 }
 
-/* line 267, ../../../../sass/style.scss */
+/* line 276, ../../../../sass/style.scss */
 .tag_box li {
   line-height: 28px;
 }
 
-/* line 270, ../../../../sass/style.scss */
+/* line 279, ../../../../sass/style.scss */
 .tag_box.inline li {
   float: left;
 }
 
-/* line 273, ../../../../sass/style.scss */
+/* line 282, ../../../../sass/style.scss */
 .tag_box a {
   padding: 3px 6px;
   margin: 2px;
@@ -291,13 +299,13 @@ footer img.thanks {
   text-decoration: none;
 }
 
-/* line 281, ../../../../sass/style.scss */
+/* line 290, ../../../../sass/style.scss */
 .tag_box a span {
   vertical-align: super;
   font-size: 0.8em;
 }
 
-/* line 285, ../../../../sass/style.scss */
+/* line 294, ../../../../sass/style.scss */
 .tag_box a.active {
   background: #57A957;
   border: 1px solid #4C964D;
