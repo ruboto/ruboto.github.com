@@ -33,8 +33,8 @@ body {
 }
 /* line 43, ../../../../sass/style.scss */
 #main-navigation #other {
+  margin-left: 80px;
   font-weight: 400;
-  float: right;
 }
 
 /* line 49, ../../../../sass/style.scss */
