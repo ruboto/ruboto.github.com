@@ -1,5 +1,6 @@
 ---
 title : Ruboto core 0.3.0
+layout: post
 ---
 New in version 0.3.0:
 
