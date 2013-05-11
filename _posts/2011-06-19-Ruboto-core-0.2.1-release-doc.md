@@ -1,8 +1,8 @@
 ---
-title : Ruboto core 0.2.0
+title : Ruboto core 0.2.1
 layout: post
 ---
-New in version 0.2.0:
+New in version 0.2.1:
 
 Features:
 
