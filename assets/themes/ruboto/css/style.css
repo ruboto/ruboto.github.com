@@ -187,6 +187,7 @@ body {
   color: black;
   background-color: white;
   border-bottom: 1px #ebebeb solid;
+  min-height: 400px;
 }
 /* line 191, ../../../../sass/style.scss */
 .content h2 {
