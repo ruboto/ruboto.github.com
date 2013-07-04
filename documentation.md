@@ -21,10 +21,8 @@ title: Documentation
 * Add the sdk to `$ANDROID_HOME` as an absolute path (Java does not expand
   tildes `~`)
 * Add the sdk's `tools/` and `platform-tools/` directory to your `$PATH`
-* Generate an Emulator image unless you want to develop using your
-  phone.
 
-## Set up
+## Set Up
 
 You can easily check or install the requirements above: 
 
@@ -32,5 +30,7 @@ You can easily check or install the requirements above:
 
 ## Diving In
 
-Read the [README](https://github.com/ruboto/ruboto/blob/master/README.md "README") and [visit the
-Wiki](https://github.com/ruboto/ruboto/wiki "Wiki")
+* Generate an Emulator image unless you want to develop using your
+  phone.
+* Read the [README](https://github.com/ruboto/ruboto/blob/master/README.md "README") and 
+  [visit the Wiki](https://github.com/ruboto/ruboto/wiki "Wiki")
