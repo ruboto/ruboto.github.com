@@ -5,11 +5,18 @@ title: Documentation
 
 # Getting started
 
+## Ruby
+
+* Install ruby or jruby if you don't already have it. JRuby has a very easy
+  install process, or you can use rvm
+
+## Ruboto
+
+`gem install ruboto`
+
 ## Requirements
 
 * Install the JDK if it's not on your system already
-* Install jruby if you don't already have it. JRuby has a very easy
-  install process, or you can use rvm
 * Install the Android SDK
 * Add the sdk to `$ANDROID_HOME` as an absolute path (Java does not expand
   tildes `~`)
@@ -17,9 +24,11 @@ title: Documentation
 * Generate an Emulator image unless you want to develop using your
   phone.
 
-## Installation
+## Set up
 
-`gem install ruboto`
+You can easily check or install the requirements above: 
+
+`ruboto setup`
 
 ## Diving In
 
