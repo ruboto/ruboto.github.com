@@ -1,6 +1,7 @@
 ---
 title : Ruboto core 0.5.1
 layout: post
+category: news
 ---
 New in version 0.5.1:
 
