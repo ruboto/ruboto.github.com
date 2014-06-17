@@ -11,6 +11,11 @@ body {
   margin: 25px 0;
   font-weight: 100;
 }
+
+.nav.nav-tabs {
+ background-color: gainsboro;
+}
+
 /* line 24, ../../../../sass/style.scss */
 #main-navigation ul {
   list-style-position: inside;
