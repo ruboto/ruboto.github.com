@@ -18,7 +18,7 @@ GEM
       sass (~> 3.2.19)
     execjs (2.0.2)
     fast-stemmer (1.0.2)
-    ffi (1.9.3)
+    ffi (1.11.2)
     fssm (0.2.10)
     jekyll (2.0.3)
       classifier (~> 1.3)
