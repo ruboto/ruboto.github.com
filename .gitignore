@@ -1,6 +1,7 @@
-.idea
 *~
+.idea
 _site
+.jekyll-cache
 .sass
 sass/.sass-cache
 .sass-cache
